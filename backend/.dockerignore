@@ -1,0 +1,12 @@
+.git
+.gitignore
+.idea
+.vscode
+*.iml
+mvnw
+mvnw.cmd
+.mvn
+
+# Keep only the packaged artifact for runtime image assembly
+target/*
+!target/backend.jar
