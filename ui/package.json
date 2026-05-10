@@ -1,0 +1,19 @@
+{
+  "name": "test-app-ui",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "lint": "eslint \"src/**/*.js\" \"tests/**/*.js\"",
+    "test": "vitest run --coverage",
+    "test:ci": "vitest run --coverage",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^2.1.8",
+    "eslint": "^8.57.1",
+    "vite": "^5.4.14",
+    "vitest": "^2.1.8"
+  }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="3" failures="0" errors="0" time="0.22">
+    <testsuite name="tests/api.test.js" timestamp="2026-02-22T16:57:04.698Z" hostname="MacBook-Pro-Zakhar.local" tests="3" failures="0" errors="0" skipped="0" time="0.003084042">
+        <testcase classname="tests/api.test.js" name="formatPayload &gt; formats payload with indentation" time="0.000583292">
+        </testcase>
+        <testcase classname="tests/api.test.js" name="fetchHello &gt; returns parsed payload for successful response" time="0.001459166">
+        </testcase>
+        <testcase classname="tests/api.test.js" name="fetchHello &gt; throws an HTTP error when response is not ok" time="0.000466583">
+        </testcase>
+    </testsuite>
+</testsuites>
